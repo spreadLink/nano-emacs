@@ -132,13 +132,13 @@ background color that is barely perceptible."
                     :background (face-background 'nano-face-default)
                     :overline nil
 		            :underline nil
-		            :box nil)
+		            :box t)
 (set-face-attribute 'mode-line-inactive nil
                     :height 0.75
                     :foreground (face-foreground 'nano-face-faded)
                     :background (face-background 'nano-face-default)
                     :overline nil 
-                    :underline nil
+                    :underline t
 		            :inherit nil
                     :box nil)
 ;;(when (display-graphic-p)

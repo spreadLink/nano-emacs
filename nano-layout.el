@@ -18,7 +18,7 @@
 
 (setq default-frame-alist
       (append (list
-	       '(font . "Roboto Mono Light 14")
+	       '(font . "Roboto Mono Light 12")
 	       '(min-height . 1)  '(height     . 45)
 	       '(min-width  . 40) '(width      . 81)
                '(vertical-scroll-bars . nil)
